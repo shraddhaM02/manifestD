@@ -1,0 +1,47 @@
+{
+  "name": "manifest",
+  "organizationId": "153476dd-47bc-4620-b907-d1e11e38d9c0",
+  "organizationName": "ivoyant",
+  "workspaceId": "TpmMEUhryzChoFymZOhhK",
+  "workspaceName": "MultiModule_Git_demo",
+  "applicationId": "mHETmKnqNSQPklTuacgAc",
+  "applicationName": "manifest",
+  "description": "",
+  "level": "Single",
+  "integrations": [
+    {
+      "workflowId": "TbqZJRfYWEhYdIUjEvXvf",
+      "name": "New",
+      "trigger": "New Workflow",
+      "type": "api",
+      "description": ""
+    }
+  ],
+  "events": [
+    {
+      "name": "Demo",
+      "schema": {
+        "name": "Demo",
+        "type": "json-schema",
+        "content": {
+          "type": "object",
+          "title": "Demo",
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "required": [],
+          "properties": {
+            "message": {
+              "type": "string"
+            }
+          }
+        },
+        "destination": "source",
+        "schemaSource": "file"
+      },
+      "description": ""
+    }
+  ],
+  "resources": [],
+  "variables": [],
+  "manifestLevels": [],
+  "appConfigurations": []
+}
