@@ -1,6 +1,6 @@
 {
   "id": "kKQHimWYaimorMFJxjsdW",
-  "name": "New Workflow 2",
+  "name": "Test",
   "workflowName": "New Workflow 2",
   "itemType": "workflow",
   "appId": "HKWOtVasfmsGxxmiBkIcj",
@@ -106,6 +106,6 @@
   "mappings": {},
   "notes": [],
   "config": {
-    "name": "New Workflow"
+    "name": "Test"
   }
 }
