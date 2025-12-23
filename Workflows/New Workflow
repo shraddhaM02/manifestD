@@ -4,7 +4,7 @@
   "workflowName": "New Workflow",
   "itemType": "workflow",
   "appId": "mHETmKnqNSQPklTuacgAc",
-  "folderId": "roaKJFMknSwhPPFcCwYCe",
+  "folderId": "jZHwsofeynMeAbqFWrYnk",
   "type": "ORCHESTRATION",
   "version": "0.0.1",
   "steps": [
@@ -103,7 +103,18 @@
     }
   },
   "mappings": {},
-  "notes": [],
+  "notes": [
+    {
+      "id": "rhPBdbHOgCtfZlnfEYtOI",
+      "position": {
+        "x": -1.9999999999999964,
+        "y": -592.5400000000001
+      },
+      "description": "",
+      "width": 150,
+      "height": 150
+    }
+  ],
   "config": {
     "name": "New Workflow"
   }
