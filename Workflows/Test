@@ -1,10 +1,10 @@
 {
   "id": "kKQHimWYaimorMFJxjsdW",
   "name": "Test",
-  "workflowName": "New Workflow 2",
+  "workflowName": "Test",
   "itemType": "workflow",
   "appId": "HKWOtVasfmsGxxmiBkIcj",
-  "folderId": "GuMyqeqBfpvJNgxCbQCym",
+  "folderId": "QUWsaXsGLerCPqdRqhhhk",
   "type": "ORCHESTRATION",
   "version": "0.0.1",
   "steps": [
@@ -32,12 +32,15 @@
       "stepType": "EVENT_SOURCE",
       "icon": "",
       "indicator": "",
-      "description": "This resource is for HTTP Server",
+      "description": "",
       "deletable": true,
       "config": {
+        "activityName": "RESTService",
+        "activityGroup": "HTTP",
+        "activityType": "EVENT_SOURCE",
         "name": "RESTService",
         "description": "",
-        "path": "",
+        "path": "/hello",
         "method": [
           "GET"
         ],
@@ -48,11 +51,8 @@
         "queryParams": [],
         "pathParams": [],
         "output": "",
-        "activityType": "EVENT_SOURCE",
-        "activityGroup": "HTTP",
-        "activityName": "RESTService",
         "activityStatus": "APPROVED",
-        "showHttpFormSelectionPanel": true,
+        "showHttpFormSelectionPanel": false,
         "config.name": "RESTService",
         "sourceSchemas": []
       },
