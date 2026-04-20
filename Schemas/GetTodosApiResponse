@@ -1,0 +1,42 @@
+{
+  "id": "dvfJRrzPsKrbTFOBmrBOm",
+  "name": "GetTodosApiResponse",
+  "appId": "mHETmKnqNSQPklTuacgAc",
+  "folderId": "18GlAEQXPzvy3NOeDyOJt",
+  "content": {
+    "type": "json-schema",
+    "destination": "source",
+    "content": {
+      "$schema": "https://json-schema.org/draft-07/schema",
+      "title": "GetTodosApiResponse",
+      "type": "object",
+      "properties": {
+        "todos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "integer"
+              },
+              "id": {
+                "type": "integer"
+              },
+              "title": {
+                "type": "string"
+              },
+              "completed": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "name": "GetTodosApiResponse",
+    "schemaSource": "file"
+  },
+  "itemType": "appSchemas",
+  "gitEnabled": true,
+  "children": []
+}
